@@ -1,0 +1,77 @@
+@font-face{
+    font-family: "figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    
+}
+
+body {
+     background-color: hsl(47, 88%, 63%) ;
+     display: flex;
+     align-items: center ;
+     justify-content: center;
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+}
+
+ .card {
+     background-color: rgb(255, 255, 255);
+     width: 270px;
+     height: 410px;
+     border-radius: 10px;
+     box-shadow:10px 10px 0px black ;
+     border: 0.5px solid rgb(0, 0, 0) ;
+     font-family: "figtree";
+ } 
+ .img-1 {
+     height: 150px;
+     width: 247px;
+     border-radius: 10px;
+     margin-top: 10px;
+     margin-left: 11px;
+ }
+ .p-1 {
+     margin-top: 3px;
+     margin-left: 15px;
+     background-color: hsl(47, 88%, 63%) ;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 4px;
+     font-weight: 600;
+     padding: 5px;
+     }
+ 
+ .p-2 {
+     font-size: 16px;
+     margin-left: 12px;
+     font-weight: 500;
+ 
+ }
+ .p-3 {
+     margin-left: 12px;
+     font-size: 20px;
+     margin-right: 10px;
+     font-weight: 800;
+     font-style: normal;
+ }
+ 
+ .p-4 {
+     margin-left: 12px;
+     font-size: 14px;
+     color:   hsl(0, 0%, 50%);
+ }
+ 
+ .img-2 { 
+     height: 32px;
+     width: 32px;
+     border-radius: 50%;
+     margin-left: 10px;
+     object-fit: cover;
+ }
+ 
+ .img-p {
+     margin-left: 50px;
+     margin-top: -30px;
+     font-size: 17px;
+     font-weight: 600;
+ }
